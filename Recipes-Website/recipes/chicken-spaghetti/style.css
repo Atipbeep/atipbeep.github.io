@@ -1,0 +1,17 @@
+html, body {
+  background: linear-gradient(#e66465, #9198e5);
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 24px;
+}
+
+.title {
+  text-align: center;
+  font-style: Helvetica;
+}
+
+img {
+  width: 350px;
+  height: 250px;
+  
+}
