@@ -131,8 +131,6 @@ section {
     border: none;
     background-color: transparent;
     cursor: pointer;
+    padding: 2rem;
 }
 
-.controls #reset {
-    display: none;
-}

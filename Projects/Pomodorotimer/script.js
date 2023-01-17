@@ -2,6 +2,7 @@
 
 let workTitle = document.getElementById('work');
 let breakTitle = document.getElementById('break');
+let stopTitle = document.getElementById('stop');
 
 let workTime = 45;
 let breakTime = 10;
@@ -19,13 +20,14 @@ window.onload = () => {
     workTitle.classList.add('active');
 }
 
+function stopTimer(){
+    clearInterval(Interval)
+} 
+
+
 // start timer
 function start() {
-    // change button
-    document.getElementById("start").style.display = 'none';
-    document.getElementById("reset").style.display = 'block';
-
-
+    
     // change the time
     seconds = 59;
 
